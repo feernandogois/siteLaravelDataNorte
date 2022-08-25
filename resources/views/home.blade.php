@@ -15,7 +15,7 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <a href="/"><img class="logo-imagem" src="../img/logo_datanorth.png"></a>
+                <a href="/"><img class="logoG-imagem" src="../img/logo_datanorth.png"></a>
             </div>
             <div class="nav-list">
                 <ul>
