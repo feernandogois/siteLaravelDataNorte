@@ -1,0 +1,1314 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+/*https://fonts.google.com/specimen/Sarala*/
+
+
+/* VERSÃO MOBILE -> MÁXIMO 950PX DE LARGURA */
+@media only screen and (max-width: 730px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        overflow-x: hidden;
+    }
+
+    body {
+        /*TAGS CHAMAMOS DIRETO*/
+        font-size: 100%;
+        background: linear-gradient(68.15deg, #027be3 25.62%, #7c7c80 90.61%);
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+    /* INICIO CLASS MAIN */
+    .conteudo {
+        margin-bottom: 48px;
+        border-top: 0.4px solid #FFF2E7;
+        width: auto;
+    }
+
+    /* FIM CLASS MAIN */
+
+    /* INICIO HEADER */
+
+
+    /* FIM HEADER */
+
+    /* INICIO FOOTER */
+    .rodape {
+        width: auto;
+        border-top: 0.4px solid #FFF2E7;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 2%;
+        padding-top: 20px;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    .rodape-titulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+        margin-right: 10px;
+
+    }
+
+    .rodape-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFF2E7;
+        text-align: center;
+        margin: 0 auto;
+        margin-right: 10px;
+    }
+
+    .rodape-imagem {
+        height: 48px;
+        display: block;
+        margin: 0 auto;
+        margin-right: 10px;
+
+    }
+
+    /* FIM FOOTER */
+
+    /* INICIO APRESENTACAO */
+    .conteudo-apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .conteudo-apresentacao-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .conteudo-apresentacao-escrito-titulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 64px;
+        color: #FFF2E7;
+
+    }
+
+    .conteudo-apresentacao-escrito-subtitulo {
+        font-family: 'Sarala', sans-serif;
+        color: #ECD6C4;
+        font-weight: 400;
+        font-size: 24px;
+
+    }
+
+    .conteudo-apresentacao-escrito-botao {
+        background-color: #ECD6C4;
+        width: 180px;
+        height: 60px;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #2F2325;
+    }
+
+    .conteudo-apresentacao-escrito-botao:hover {
+        background-color: rgb(236, 214, 196, 0.53)
+    }
+
+    .conteudo-apresentacao-escrito-imagem {
+        max-height: 280px;
+        max-width: 280px;
+        min-height: 280px;
+        min-width: 280px;
+        margin-right: 10px;
+
+    }
+
+    /* FIM APRESENTACAO */
+
+    /* INICIO SOLUCOES */
+    .conteudo-solucoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+
+    }
+
+    .conteudo-solucoes-escrito-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+
+    }
+
+    .conteudo-solucoes-escrito-titulo-div {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-solucoes-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-solucoes-bloco {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 600px;
+        padding: 10px 2%;
+        padding-top: 50px;
+        width: auto;
+        align-items: center;
+    }
+
+    .conteudo-solucoes-subtitulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 29px;
+        width: 100%;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+        margin-right: 10px;
+
+    }
+
+    .conteudo-solucoes-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ECD6C4;
+        text-align: center;
+    }
+
+    .conteudo-solucoes-imagem {
+        height: 72px;
+        margin-right: 10px;
+    }
+
+    /* FIM SOLUCOES */
+
+    /* INICIO EMPRESA */
+    .conteudo-empresa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    .conteudo-empresa-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-empresa-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        width: 95%;
+        color: #ECD6C4;
+        text-align: center;
+    }
+
+    /* FIM EMPRESA */
+
+    /* INICIO CLIENTES*/
+    .conteudo-clientes {
+        display: flex;
+        flex-wrap: wrap;
+        /*A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido,
+        ele define a direção em que as linhas são empilhadas.
+        https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-wrap */
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+        width: 100%;
+        padding-left: 50px;
+
+    }
+
+    .conteudo-clientes-escrito-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+
+    }
+
+    .conteudo-clientes-escrito-titulo-div {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-clientes-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-clientes-bloco {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 600px;
+        padding: 10px 2%;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .conteudo-clientes-subtitulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-clientes-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ECD6C4;
+        text-align: center;
+    }
+
+    .conteudo-clientes-imagem {
+        max-height: 85px;
+        max-width: 85px;
+        min-height: 85px;
+        min-width: 85px;
+        margin-right: 10px;
+    }
+
+    /* FIM CLIENTES */
+
+    /* FORMULARIO CONTATO WHATSAPP */
+    .conteudo-formulariowpp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+        padding-left: 40px;
+        padding-right: 30px;
+
+
+
+    }
+
+    .conteudo-formulariowpp-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    input,
+    textarea {
+        width: 350px;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    .conteudo-formulariowpp-escrito-botao {
+        background-color: #ECD6C4;
+        width: 250px;
+        height: 100px;
+        border: none;
+        margin: 40px;
+
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #2F2325;
+    }
+
+    .conteudo-formulariowpp-escrito-botao:hover {
+        background-color: rgb(236, 214, 196, 0.53)
+    }
+
+    /* FIM FORMULARIO CONTATO WHATSAPP */
+
+    /* INICIO REPRESENTANTES */
+    .conteudo-representante {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .conteudo-representante-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .conteudo-representante-escrito-titulo-div {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-representante-escrito-titulo {
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-representante-escrito-subtitulo {
+        font-family: 'Sarala', sans-serif;
+        color: #ECD6C4;
+        font-weight: 400;
+        font-size: 24px;
+
+    }
+
+    .conteudo-representante-escrito-imagem {
+        height: 430px;
+
+    }
+
+    /* FIM REPRESENTANTES */
+
+    /* INICIO PARCEIROS */
+    .conteudo-parceiros {
+        display: flex;
+        flex-wrap: wrap;
+        /*A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido,
+        ele define a direção em que as linhas são empilhadas.
+        https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-wrap */
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+        width: 100%;
+        padding-left: 50px;
+
+    }
+
+    .conteudo-parceiros-escrito-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+        width: 380px;
+
+    }
+
+    .conteudo-parceiros-escrito-titulo-div {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-parceiros-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-parceiros-bloco {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 600px;
+        padding: 10px 2%;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+
+    .conteudo-parceiros-subtitulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-parceiros-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ECD6C4;
+        text-align: center;
+    }
+
+    .conteudo-parceiros-imagem {
+        max-height: 85px;
+        max-width: 85px;
+        /*
+        min-height: 85px;
+        min-width: 85px;
+        */
+
+        margin-right: 10px;
+    }
+
+    /* FIM PARCEIROS */
+
+    /* INICIO ÁREA DO CLIENTE */
+    .conteudo-areadocliente {
+        display: flex;
+        flex-wrap: wrap;
+        /*A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido,
+        ele define a direção em que as linhas são empilhadas.
+        https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-wrap */
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+        width: 100%;
+        padding-left: 50px;
+
+    }
+
+    .conteudo-areadocliente-escrito-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+
+    }
+
+    .conteudo-areadocliente-escrito-titulo-div {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-areadocliente-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-areadocliente-bloco {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 600px;
+        padding: 10px 2%;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .conteudo-areadocliente-subtitulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-areadocliente-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ECD6C4;
+        text-align: center;
+    }
+
+    .conteudo-areadocliente-imagem {
+        max-height: 85px;
+        max-width: 85px;
+        /*
+        min-height: 85px;
+        min-width: 85px;
+        */
+        margin-right: 10px;
+    }
+
+    /* FIM ÁREA DO CLIENTE */
+
+}
+
+
+/* VERSÃO WEB -> MINIMO 950PX DE LARGURA */
+@media only screen and (min-width: 730px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+
+    body {
+        /*TAGS CHAMAMOS DIRETO*/
+        font-size: 100%;
+        background: linear-gradient(68.15deg, #027be3 25.62%, #7c7c80 90.61%);
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* INICIO CLASS MAIN */
+    .conteudo {
+        margin-bottom: 48px;
+        border-top: 0.4px solid #FFF2E7;
+    }
+
+    /* FIM CLASS MAIN */
+    /* INICIO HEADER */
+
+    /* FIM HEADER */
+
+    /* INICIO FOOTER */
+    .rodape {
+        border-top: 0.4px solid #FFF2E7;
+        display: flex;
+        flex-direction: row;
+        padding: 10px 2%;
+        padding-top: 20px;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    .rodape-titulo {
+        font-family: "BrandonTextBold";
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+        margin-right: 10px;
+
+    }
+
+    .rodape-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFF2E7;
+        text-align: center;
+        margin: 0 auto;
+        margin-right: 10px;
+    }
+
+    .rodape-imagem {
+        height: 48px;
+        display: block;
+        margin: 0 auto;
+        margin-right: 10px;
+
+    }
+
+    /* FIM FOOTER */
+
+    /* INICIO APRESENTACAO */
+    .conteudo-apresentacao {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .conteudo-apresentacao-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    /*DEFININDO A FONTE DO TITULO BRANDONTEXTBOLD */
+    @font-face {
+        font-family: "BrandonTextBold";
+        src: local(BrandonTextBold), url(../fonts/BrandonTextBold.ttf);
+    }
+
+    .conteudo-apresentacao-escrito-titulo {
+        font-family: "BrandonTextBold";
+        font-weight: 400;
+        font-size: 64px;
+        color: #FFF2E7;
+
+    }
+
+    .conteudo-apresentacao-escrito-subtitulo {
+        font-family: 'Sarala', sans-serif;
+        color: #ECD6C4;
+        font-weight: 400;
+        font-size: 24px;
+
+    }
+
+    .conteudo-apresentacao-escrito-botao {
+        background-color: #ECD6C4;
+        width: 180px;
+        height: 60px;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #2F2325;
+    }
+
+    .conteudo-apresentacao-escrito-botao:hover {
+        background-color: rgb(236, 214, 196, 0.53)
+    }
+
+    .conteudo-apresentacao-escrito-imagem {
+        height: 430px;
+
+    }
+
+    /* FIM APRESENTACAO */
+
+    /* INICIO SOLUCOES */
+    .conteudo-solucoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+
+    }
+
+    .conteudo-solucoes-escrito-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+
+    }
+
+    .conteudo-solucoes-escrito-titulo-div {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-solucoes-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-solucoes-bloco {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 600px;
+        padding: 10px 2%;
+        padding-top: 50px;
+        width: auto;
+        align-items: center;
+    }
+
+    .conteudo-solucoes-subtitulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+        margin-right: 10px;
+
+    }
+
+    .conteudo-solucoes-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ECD6C4;
+        text-align: center;
+    }
+
+    .conteudo-solucoes-imagem {
+        height: 72px;
+        margin-right: 10px;
+    }
+
+    /* FIM SOLUCOES */
+
+    /* INICIO EMPRESA */
+    .conteudo-empresa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+    }
+
+    .conteudo-empresa-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-empresa-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        width: 95%;
+        color: #ECD6C4;
+        text-align: center;
+    }
+
+    /* FIM EMPRESA */
+
+    /* INICIO CLIENTES*/
+    .conteudo-clientes {
+        display: flex;
+        flex-wrap: wrap;
+        /*A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido,
+        ele define a direção em que as linhas são empilhadas.
+        https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-wrap */
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+        width: 100%;
+        padding-left: 50px;
+
+    }
+
+    .conteudo-clientes-escrito-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+
+    }
+
+    .conteudo-clientes-escrito-titulo-div {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-clientes-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-clientes-bloco {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 600px;
+        padding: 10px 2%;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .conteudo-clientes-subtitulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-clientes-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ECD6C4;
+        text-align: center;
+    }
+
+    .conteudo-clientes-imagem {
+        max-height: 85px;
+        max-width: 85px;
+        min-height: 85px;
+        min-width: 85px;
+        margin-right: 10px;
+    }
+
+    /* FIM CLIENTES */
+
+    /* FORMULARIO CONTATO WHATSAPP */
+    .conteudo-formulariowpp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+
+    }
+
+    .conteudo-formulariowpp-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    input,
+    textarea {
+        width: 500px;
+        margin-bottom: 16px;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 16px;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    .conteudo-formulariowpp-escrito-botao {
+        background-color: #ECD6C4;
+        width: 400px;
+        height: 80px;
+        border: none;
+        margin: 40px;
+
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #2F2325;
+    }
+
+    .conteudo-formulariowpp-escrito-botao:hover {
+        /* background-color: rgb(236, 214, 196, 0.53)*/
+        background-color: #49c858
+    }
+
+    /* FIM FORMULARIO CONTATO WHATSAPP */
+
+    /* INICIO REPRESENTANTES */
+    .conteudo-representante {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .conteudo-representante-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .conteudo-representante-escrito-titulo-div {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-representante-escrito-titulo {
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-representante-escrito-subtitulo {
+        font-family: 'Sarala', sans-serif;
+        color: #ECD6C4;
+        font-weight: 400;
+        font-size: 24px;
+
+    }
+
+    .conteudo-representante-escrito-imagem {
+        height: 430px;
+
+    }
+
+    /* FIM REPRESENTANTES */
+
+    /* INICIO PARCEIROS */
+    .conteudo-parceiros {
+        display: flex;
+        flex-wrap: wrap;
+        /*A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido,
+        ele define a direção em que as linhas são empilhadas.
+        https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-wrap */
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+        width: 100%;
+        padding-left: 50px;
+
+    }
+
+    .conteudo-parceiros-escrito-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+
+    }
+
+    .conteudo-parceiros-escrito-titulo-div {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-parceiros-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-parceiros-bloco {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 600px;
+        padding: 10px 2%;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+
+    .conteudo-parceiros-subtitulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-parceiros-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ECD6C4;
+        text-align: center;
+    }
+
+    .conteudo-parceiros-imagem {
+        max-height: 85px;
+        max-width: 85px;
+        /*
+        min-height: 85px;
+        min-width: 85px;
+        */
+
+        margin-right: 10px;
+    }
+
+    /* FIM PARCEIROS */
+
+    /* INICIO ÁREA DO CLIENTE */
+    .conteudo-areadocliente {
+        display: flex;
+        flex-wrap: wrap;
+        /*A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas. Se o argumento for valido,
+        ele define a direção em que as linhas são empilhadas.
+        https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-wrap */
+        flex-direction: row;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+        width: 100%;
+        padding-left: 50px;
+
+    }
+
+    .conteudo-areadocliente-escrito-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+
+    }
+
+    .conteudo-areadocliente-escrito-titulo-div {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-areadocliente-titulo {
+        border-top: 0.4px solid #FFF2E7;
+        padding-top: 48px;
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+    }
+
+    .conteudo-areadocliente-bloco {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 600px;
+        padding: 10px 2%;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    .conteudo-areadocliente-subtitulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        margin-bottom: 16px;
+
+    }
+
+    .conteudo-areadocliente-paragrafo {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ECD6C4;
+        text-align: center;
+    }
+
+    .conteudo-areadocliente-imagem {
+        max-height: 85px;
+        max-width: 85px;
+        /*
+        min-height: 85px;
+        min-width: 85px;
+        */
+        margin-right: 10px;
+    }
+
+    /* FIM ÁREA DO CLIENTE */
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: transparent;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-imagem {
+    height: 72px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .logo-imagem {
+        height: 50px;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+
+    .open {
+        display: block;
+    }
+}
