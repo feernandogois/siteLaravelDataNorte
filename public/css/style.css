@@ -58,7 +58,7 @@
         font-size: 20px;
         color: #FFF2E7;
         margin-bottom: 16px;
-        margin-right: 10px;
+        text-align: center;
 
     }
 
@@ -76,7 +76,8 @@
         height: 48px;
         display: block;
         margin: 0 auto;
-        margin-right: 10px;
+        text-align: center;
+        /*margin-right: 10px;*/
 
     }
 
@@ -130,11 +131,13 @@
     }
 
     .conteudo-apresentacao-escrito-imagem {
+        /*
         max-height: 280px;
         max-width: 280px;
         min-height: 280px;
         min-width: 280px;
-        margin-right: 10px;
+        margin-right: 10px;*/
+        display: none;
 
     }
 
@@ -195,7 +198,7 @@
         font-family: 'Righteous', cursive;
         font-weight: 400;
         font-size: 29px;
-        width: 100%;
+        width: 110%;
         color: #FFF2E7;
         margin-bottom: 16px;
         margin-right: 10px;
@@ -432,6 +435,7 @@
 
     .conteudo-representante-escrito-imagem {
         height: 430px;
+        display: none;
 
     }
 
@@ -605,7 +609,6 @@
         min-height: 85px;
         min-width: 85px;
         */
-        margin-right: 10px;
     }
 
     /* FIM ÁREA DO CLIENTE */
@@ -1181,6 +1184,7 @@
         padding: 10px 2%;
         padding-top: 50px;
         align-items: center;
+
     }
 
     .conteudo-areadocliente-subtitulo {
@@ -1239,7 +1243,7 @@ header {
 }
 
 .logo-imagem {
-    height: 72px;
+    height: 80px;
 }
 
 .nav-list {

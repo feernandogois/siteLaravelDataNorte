@@ -15,7 +15,7 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <a href="/"><img class="logoG-imagem" src="../img/logo_datanorth.png"></a>
+                <a href="/"><img class="logo-imagem" src="../img/logo_datanorth.png"></a>
             </div>
             <div class="nav-list">
                 <ul>
@@ -228,14 +228,14 @@
                 <h3 class="conteudo-formulariowpp-titulo" id="conteudo-formulariowpp-titulo">Formulário de Contato
                 </h3>
                 <form action="#" method="get" onsubmit="abrirWhatsapp()" id="whatsapp">
-                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required><br>
-                    <input type="text" name="telefone" id="telefone" placeholder="Seu telefone" required><br>
-                    <input type="email" name="email" id="email" placeholder="Seu email" required><br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" required><br>
+                    <input type="text" name="telefone" id="telefone" placeholder="Seu Telefone" required><br>
+                    <input type="email" name="email" id="email" placeholder="Seu Email" required><br>
                     <input type="text" name="municipio" id="municipio" placeholder="Digite o seu Município"
                         required><br>
                     <input type="text" name="unidade" id="unidade"
-                        placeholder="Informe a unidade (Caso tenha)."><br>
-                    <textarea name="msg" id="msg" placeholder="Sua solicitação" required></textarea><br>
+                        placeholder="Informe a Unidade (Caso tenha)."><br>
+                    <textarea name="msg" id="msg" placeholder="Sua Solicitação" required></textarea><br>
                     <button class="conteudo-formulariowpp-escrito-botao" type="submit"><img
                             src="img/iconwhatsapp.png" width="40px"><span> Enviar para o
                             WhatsApp</span>
@@ -300,21 +300,21 @@
             <div class="conteudo-areadocliente-bloco">
                 <a href="https://www.datanortesistemas.com.br/tools/TeamViewerQS-idc6p9aiq2.zip" target="_blank">
                     <img class="conteudo-areadocliente-imagem" src="img/logoteamviewer.png">
-                    <h3 class="conteudo-areadocliente-subtitulo">TeamViewer
+                    <h3 class="conteudo-areadocliente-subtitulo">TeamViewer - Acesso Remoto
                     </h3>
                 </a>
             </div>
             <div class="conteudo-areadocliente-bloco">
-                <a href="https://www.datanortesistemas.com.br/tools/AnyDesk.zip" target="_blank">
+                <a href="https://www.datanortesistemas.com.br/tools/Ammy.zip" target="_blank">
                     <img class="conteudo-areadocliente-imagem" src="img/logoanydesk.png">
-                    <h3 class="conteudo-areadocliente-subtitulo">AnyDesk
+                    <h3 class="conteudo-areadocliente-subtitulo">AnyDesk - Acesso Remoto
                     </h3>
                 </a>
             </div>
             <div class="conteudo-areadocliente-bloco">
                 <a href="https://www.datanortesistemas.com.br/tools/Ammy.zip" target="_blank">
                     <img class="conteudo-areadocliente-imagem" src="img/logoammyyadmin.png">
-                    <h3 class="conteudo-areadocliente-subtitulo">Ammyy Admin
+                    <h3 class="conteudo-areadocliente-subtitulo">Ammyy Admin - Acesso Remoto
                     </h3>
                 </a>
             </div>
