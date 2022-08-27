@@ -78,13 +78,13 @@
                 <p class="conteudo-solucoes-paragrafo">Saúde pública com gestão e prestação de serviço de qualidade.</p>
             </div>
             <div class="conteudo-solucoes-bloco">
-                <img class="conteudo-solucoes-imagem" src="img/pencil-fill.svg">
+                <img class="conteudo-solucoes-imagem" src="img/school_black_24dp.svg">
                 <h3 class="conteudo-solucoes-subtitulo">Nemesis Educação</h3>
                 <p class="conteudo-solucoes-paragrafo">Controle completo da educação pública: diário de classe, CENSO,
                     histórico, entre outros.</p>
             </div>
             <div class="conteudo-solucoes-bloco">
-                <img class="conteudo-solucoes-imagem" src="img/person-badge-fill.svg">
+                <img class="conteudo-solucoes-imagem" src="img/fingerprint_black_24dp.svg">
                 <h3 class="conteudo-solucoes-subtitulo">Scad Bioponto</h3>
                 <p class="conteudo-solucoes-paragrafo">Controle de frequência completo com solução web para
                     acompanhamento em tempo real.</p>
@@ -141,8 +141,8 @@
                 <h3 class="conteudo-clientes-subtitulo">Conselho da Comunidade de Sinop</h3>
             </div>
             <div class="conteudo-clientes-bloco">
-                <img class="conteudo-clientes-imagem" src="img/logolbserviçosmedicosltda.png">
-                <h3 class="conteudo-clientes-subtitulo">LB Serviços Médicos LTDA</h3>
+                <img class="conteudo-clientes-imagem" src="img/logosurgerymt.png">
+                <h3 class="conteudo-clientes-subtitulo">Surgery MT</h3>
             </div>
             <div class="conteudo-clientes-bloco">
                 <img class="conteudo-clientes-imagem" src="img/logoapiacas.png">
@@ -323,13 +323,14 @@
     </main>
 
     <footer class="rodape">
-        <h3 class="rodape-titulo">Data Norte Sistemas</h3>
+        <img class="rodape-imagem" src="img/logo_datanorth.png">
 
         <p class="rodape-paragrafo"><a
                 href="https://api.whatsapp.com/send?phone=556699916539&text=Ol%C3%A1%2C%20vim%20pelo%20site%20Data%20Norte%20Sistemas!"
                 target="_blank">Avenida das Sibipirunas, nº 3040, 1º Andar, Setor Residencial Sul, Sinop-MT,
-                78.550-029. Horário de Atendimento: 07h00 às 11h05 e 13h00 às 17h10.</a></p>
-        <img class="rodape-imagem" src="img/logo_datanorth.png">
+                78.550-029.</a></p>
+        <h3 class="rodape-titulo"> Horário de Atendimento: 07h00 às 11h05 e 13h00 às 17h10</h3>
+
     </footer>
 </body>
 
