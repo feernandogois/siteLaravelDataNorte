@@ -73,23 +73,129 @@
         </section>
         <section class="conteudo-solucoes">
             <div class="conteudo-solucoes-bloco">
-                <img class="conteudo-solucoes-imagem" src="img/heart-pulse-fill.svg">
+                <svg fill="white" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                    class="conteudo-solucoes-imagem" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9H1.475ZM.879 8C-2.426 1.68 4.41-2 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.88Z" />
+                </svg>
+                <!-- <img class="conteudo-solucoes-imagem" src="img/heart-pulse-fill.svg"
+                    style="background: white; fill: red;">-->
                 <h3 class="conteudo-solucoes-subtitulo">Nêmesis Saúde</h3>
                 <p class="conteudo-solucoes-paragrafo">Saúde pública com gestão e prestação de serviço de qualidade.</p>
             </div>
+
             <div class="conteudo-solucoes-bloco">
-                <img class="conteudo-solucoes-imagem" src="img/school_black_24dp.svg">
+                <svg fill="white" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                    class="conteudo-solucoes-imagem" viewBox="0 0 16 16">
+
+                    <path
+                        d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                </svg>
                 <h3 class="conteudo-solucoes-subtitulo">Nemesis Educação</h3>
                 <p class="conteudo-solucoes-paragrafo">Controle completo da educação pública: diário de classe, CENSO,
                     histórico, entre outros.</p>
             </div>
+
             <div class="conteudo-solucoes-bloco">
-                <img class="conteudo-solucoes-imagem" src="img/fingerprint_black_24dp.svg">
+                <svg fill="white" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                    class="conteudo-solucoes-imagem" viewBox="0 0 16 16">
+                    <path
+                        d="M8.06 6.5a.5.5 0 0 1 .5.5v.776a11.5 11.5 0 0 1-.552 3.519l-1.331 4.14a.5.5 0 0 1-.952-.305l1.33-4.141a10.5 10.5 0 0 0 .504-3.213V7a.5.5 0 0 1 .5-.5Z" />
+                    <path
+                        d="M6.06 7a2 2 0 1 1 4 0 .5.5 0 1 1-1 0 1 1 0 1 0-2 0v.332c0 .409-.022.816-.066 1.221A.5.5 0 0 1 6 8.447c.04-.37.06-.742.06-1.115V7Zm3.509 1a.5.5 0 0 1 .487.513 11.5 11.5 0 0 1-.587 3.339l-1.266 3.8a.5.5 0 0 1-.949-.317l1.267-3.8a10.5 10.5 0 0 0 .535-3.048A.5.5 0 0 1 9.569 8Zm-3.356 2.115a.5.5 0 0 1 .33.626L5.24 14.939a.5.5 0 1 1-.955-.296l1.303-4.199a.5.5 0 0 1 .625-.329Z" />
+                    <path
+                        d="M4.759 5.833A3.501 3.501 0 0 1 11.559 7a.5.5 0 0 1-1 0 2.5 2.5 0 0 0-4.857-.833.5.5 0 1 1-.943-.334Zm.3 1.67a.5.5 0 0 1 .449.546 10.72 10.72 0 0 1-.4 2.031l-1.222 4.072a.5.5 0 1 1-.958-.287L4.15 9.793a9.72 9.72 0 0 0 .363-1.842.5.5 0 0 1 .546-.449Zm6 .647a.5.5 0 0 1 .5.5c0 1.28-.213 2.552-.632 3.762l-1.09 3.145a.5.5 0 0 1-.944-.327l1.089-3.145c.382-1.105.578-2.266.578-3.435a.5.5 0 0 1 .5-.5Z" />
+                    <path
+                        d="M3.902 4.222a4.996 4.996 0 0 1 5.202-2.113.5.5 0 0 1-.208.979 3.996 3.996 0 0 0-4.163 1.69.5.5 0 0 1-.831-.556Zm6.72-.955a.5.5 0 0 1 .705-.052A4.99 4.99 0 0 1 13.059 7v1.5a.5.5 0 1 1-1 0V7a3.99 3.99 0 0 0-1.386-3.028.5.5 0 0 1-.051-.705ZM3.68 5.842a.5.5 0 0 1 .422.568c-.029.192-.044.39-.044.59 0 .71-.1 1.417-.298 2.1l-1.14 3.923a.5.5 0 1 1-.96-.279L2.8 8.821A6.531 6.531 0 0 0 3.058 7c0-.25.019-.496.054-.736a.5.5 0 0 1 .568-.422Zm8.882 3.66a.5.5 0 0 1 .456.54c-.084 1-.298 1.986-.64 2.934l-.744 2.068a.5.5 0 0 1-.941-.338l.745-2.07a10.51 10.51 0 0 0 .584-2.678.5.5 0 0 1 .54-.456Z" />
+                    <path
+                        d="M4.81 1.37A6.5 6.5 0 0 1 14.56 7a.5.5 0 1 1-1 0 5.5 5.5 0 0 0-8.25-4.765.5.5 0 0 1-.5-.865Zm-.89 1.257a.5.5 0 0 1 .04.706A5.478 5.478 0 0 0 2.56 7a.5.5 0 0 1-1 0c0-1.664.626-3.184 1.655-4.333a.5.5 0 0 1 .706-.04ZM1.915 8.02a.5.5 0 0 1 .346.616l-.779 2.767a.5.5 0 1 1-.962-.27l.778-2.767a.5.5 0 0 1 .617-.346Zm12.15.481a.5.5 0 0 1 .49.51c-.03 1.499-.161 3.025-.727 4.533l-.07.187a.5.5 0 0 1-.936-.351l.07-.187c.506-1.35.634-2.74.663-4.202a.5.5 0 0 1 .51-.49Z" />
+                </svg>
                 <h3 class="conteudo-solucoes-subtitulo">Scad Bioponto</h3>
                 <p class="conteudo-solucoes-paragrafo">Controle de frequência completo com solução web para
                     acompanhamento em tempo real.</p>
             </div>
         </section>
+
+        <!-- NOSSOS SERVIÇOS -->
+        <section class="conteudo-nossosservicos-escrito-div">
+            <h3 class="conteudo-nossosservicos-escrito-titulo-div" id="conteudo-nossosservicos-titulo">Nossos Serviços</h3>
+        </section>
+        <section class="conteudo-nossosservicos">
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/gestao-hospitalar.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Gestão Hospitalar</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/gestao-publica.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Gestão Pública</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/bioponto.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Ponto Biométrico - Sistema de Controle para Ponto Biométrico</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/regulacao.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Central de Regulação - Central de Regulação</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/reabilitação.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Reabilitação</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/Laboratorio.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Laboratório</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/controle-temperatura-1.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Controle de Temperatura</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/AIH.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">AIH - Faturamento AIH</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/BPA.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">BPa- Faturamento BPa</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/EsusLogo.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">E-SUS - Integração E-SUS</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/horus.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Hórus - Integração com Hórus</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/tfd.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">TFD - Tratamento Fora do Domicílio</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/odontograma.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Odontograma</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/prescricao-medica.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Painel de Prescição</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/pep-1024x539.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">PEP - Prontuário Eletrônico do Paciente</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/aprazamento.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Painel de Aprazamento</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/senhas-removebg.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">Painel eletrônico de senhas</h3>
+            </div>
+            <div class="conteudo-nossosservicos-bloco">
+                <img class="conteudo-nossosservicos-imagem" src="img/nossosservicos/bi.png">
+                <h3 class="conteudo-nossosservicos-subtitulo">BI - Business Inteligence para gestão</h3>
+            </div>
+        </section>
+
+
 
         <!-- EMPRESA -->
         <section class="conteudo-empresa">
