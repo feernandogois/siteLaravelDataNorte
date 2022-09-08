@@ -21,6 +21,7 @@ function abrirWhatsapp() {
         "*Mensagem*: " + msg;
     window.open(url, '_blank').focus();
 }
+
 $('.navBar li a').click(function () {
     $('#menu-toggle').trigger('click');
 });
